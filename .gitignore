@@ -1,6 +1,9 @@
 rslt_*
 data
-date_sercer.txt
+date_server.txt
 date.txt
 *~
 #*
+nohup.out
+*.o
+*.out
