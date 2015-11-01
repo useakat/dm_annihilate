@@ -16,6 +16,7 @@ start=`date`
 run=test
 
 #./run_mode-parallel.sh $run 1 1
+###  simulate tau tau mode with run name "$run". Send mail when jobs are finished. 
 ./run_dm_ann_parallel.sh $run tautau 0 1
 
 echo $start

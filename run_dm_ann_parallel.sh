@@ -7,17 +7,19 @@ mail=$4
 output=hadron_dist_$decay.dat
 jobname=dm_ann
 submit_mode=1 # 0:serial submittion 1:parallel submission
-job_system=bsub
+#cluster=kekcc # name of computer cluster: kekcc/icrr
+cluster=icrr  # name of computer cluster: kekcc/icrr
 que=l
 
 #Emax=1000000
-Emax=100000
+Emax=100000  # default value: 100000
 if [ $decay == "ww" ];then
     min=100
     max=$Emax
     imin=1
     ndiv=20
 #    ndiv=15
+#    ndiv=1
     ext=ww
 elif [ $decay == "zz" ];then
     min=100
@@ -94,6 +96,14 @@ nevents=100000
 #nevents=1000
 
 imax=`expr $ndiv + 1`
+
+# working space for jobs on a remote server
+if [ $cluster == "icrr" ];then
+    work_dir=/disk/th/work/takaesu/$run
+    mkdir $work_dir
+elif [ $cluster == "kekcc" ];then
+    work_dir=./
+fi
 ######################################################
 start=`date`
 echo $start
@@ -112,23 +122,27 @@ while [ $i -le $imax ];do
     else
 	x=$max
     fi
-    ./submit_job_dm_ann.sh $job_system $que $i $job "./run_dm_ann_general.sh run_$i $x $nevents $decay > allprocess.log" $submit_mode
+    ./submit_job_dm_ann.sh $cluster $que $i $job "./run_dm_ann_general.sh run_$i $x $nevents $decay" $submit_mode $work_dir
     i=`expr $i + 1`
 done
 n=$i
 if [ $decay == "check" ];then
     job=${jobname}_$i
     x=91.2
-    ./submit_job_dm_ann.sh $job_system $que $i $job "./run_dm_ann_general.sh run_$i $x $nevents $decay > allprocess.log" $submit_mode
+    ./submit_job_dm_ann.sh $cluster $que $i $job "./run_dm_ann_general.sh run_$i $x $nevents $decay" $submit_mode $work_dir
     i=`expr $i + 1`
 fi
 
 if [ $submit_mode -eq 1 ];then
-    ./monitor
+    ./monitor $work_dir
+fi
+if [ $cluster == "icrr" ];then
+    mv $work_dir/* .
+    rm -rf $work_dir
 fi
 
 rsltdir=rslt_$run
-makedir.sh $rsltdir $imkdir
+./makedir.sh $rsltdir $imkdir
 rm -rf $rsltdir/$output
 
 echo "1, 141, 300, 0, 30, 1" > $rsltdir/$output
@@ -175,6 +189,4 @@ echo `date`
 
 rm -rf par_*
 
-if [ $mail -eq 1 ];then
-    bsub -q e -J annDM -u takaesu@post.kek.jp nulljob.sh >/dev/null 2>&1
-fi
+./mail_notify $mail $cluster $jobname

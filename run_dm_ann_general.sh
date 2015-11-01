@@ -71,7 +71,7 @@ else
     mkdir $run_name
 fi
 mv ../pythia/*.dat $run_name/.
-#mv ../pythia/generic_resonance.cmnd $run_name/.
+mv ../pythia/generic_resonance.cmnd $run_name/.
 cd ..
 
 echo "$run_name finished!"
