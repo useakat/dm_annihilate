@@ -1,5052 +1,1722 @@
-1;2cwaiting while finishing jobs on cluster
-10 0 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 10 0 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 9 1 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 8 2 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 7 3 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 6 4 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 5 5 10
-0 4 6 10
-0 4 6 10
-0 4 6 10
-0 4 6 10
-0 4 6 10
-0 4 6 10
-0 3 7 10
-0 3 7 10
-0 3 7 10
-0 3 7 10
-0 3 7 10
-0 3 7 10
-0 3 7 10
-0 3 7 10
-0 3 7 10
-0 3 7 10
-0 2 8 10
-0 2 8 10
-0 1 9 10
-0 1 9 10
-0 0 10 10
-Fri Feb 20 00:45:54 JST 2015
-Fri Feb 20 03:32:50 JST 2015
+Sun Nov 1 23:11:43 JST 2015
+[INFO] PJM 0000 pjsub Job 26224245 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224246 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224247 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224248 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224249 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224250 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224251 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224252 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224253 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224254 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224255 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224256 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224257 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224258 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224259 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224260 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224261 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224262 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224263 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224264 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224265 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224266 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224267 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224268 submitted.
+
+[INFO] PJM 0000 pjsub Job 26224269 submitted.
+
 waiting while finishing jobs on cluster
-1 0 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 0 1 1
-mv: cannot stat `par_2/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_3/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_4/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_5/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_6/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_7/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_8/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_9/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_10/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-Fri Feb 27 23:56:10 JST 2015
-Sat Feb 28 00:03:32 JST 2015
+25 0 0 25
+25 0 0 25
+0 25 0 25
+0 25 0 25
+0 23 2 25
+0 22 3 25
+0 21 4 25
+0 21 4 25
+0 20 5 25
+0 19 6 25
+0 19 6 25
+0 18 7 25
+0 18 7 25
+0 18 7 25
+0 17 8 25
+0 17 8 25
+0 17 8 25
+0 17 8 25
+0 16 9 25
+0 16 9 25
+0 16 9 25
+0 16 9 25
+0 16 9 25
+0 15 10 25
+0 15 10 25
+0 15 10 25
+0 15 10 25
+0 15 10 25
+0 15 10 25
+0 15 10 25
+0 15 10 25
+0 15 10 25
+0 15 10 25
+0 14 11 25
+0 14 11 25
+0 14 11 25
+0 14 11 25
+0 14 11 25
+0 14 11 25
+0 14 11 25
+0 14 11 25
+0 14 11 25
+0 14 11 25
+0 14 11 25
+0 14 11 25
+0 14 11 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 13 12 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 12 13 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+0 11 14 25
+find: `/disk/th/work/takaesu/test4/par_*': No such file or directory
+find: `/disk/th/work/takaesu/test4/par_*': No such file or directory
+find: `/disk/th/work/takaesu/test4/par_*': No such file or directory
+find: `/disk/th/work/takaesu/test4/par_*': No such file or directory
+0 0 0 0
+./run_dm_ann_parallel.sh: line 138: rk_dir: command not found
+./run_dm_ann_parallel.sh: line 139: syntax error near unexpected token `fi'
+./run_dm_ann_parallel.sh: line 139: `fi'
+Mon Nov 2 01:05:36 JST 2015
+[INFO] PJM 0000 pjsub Job 26225067 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 158.48659: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225068 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 251.18507: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225069 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 398.09871: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225070 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 630.94582: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225071 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 999.98472: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225072 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 1584.85785: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225073 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 2511.83791: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225074 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 3980.96686: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225075 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 6309.42609: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225076 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 9999.79628: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225077 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 15848.49781: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225078 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 25118.25119: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225079 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 39809.46591: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225080 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 63093.93962: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225081 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 99997.45353: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225082 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 158484.17103: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225083 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 251181.23265: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225084 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 398092.63163: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225085 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 630936.18292: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225086 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225087 submitted.
+
 waiting while finishing jobs on cluster
-1 0 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 0 1 1
-mv: cannot stat `par_2/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_3/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_4/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_5/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_6/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_7/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_8/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_9/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_10/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-Sat Feb 28 00:16:23 JST 2015
-Sat Feb 28 01:17:21 JST 2015
+21 0 0 21
+21 0 0 21
+0 21 0 21
+0 0 21 21
+finished!
+Mon Nov 2 01:05:36 JST 2015
+Mon Nov 2 01:06:29 JST 2015
+ls
+Mon Nov 2 01:09:11 JST 2015
+[INFO] PJM 0000 pjsub Job 26225105 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 158.48659: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225106 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 251.18507: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225107 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 398.09871: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225108 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 630.94582: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225109 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 999.98472: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225110 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 1584.85785: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225111 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 2511.83791: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225112 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 3980.96686: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225113 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 6309.42609: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225115 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 9999.79628: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225116 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 15848.49781: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225117 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 25118.25119: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225118 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 39809.46591: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225119 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 63093.93962: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225120 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 99997.45353: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225121 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 158484.17103: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225122 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 251181.23265: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225123 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 398092.63163: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225124 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 630936.18292: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225125 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225126 submitted.
+
 waiting while finishing jobs on cluster
-1 0 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 1 0 1
-0 0 1 1
-mv: cannot stat `par_2/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_3/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_4/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_5/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_6/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_7/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_8/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_9/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-mv: cannot stat `par_10/rslt_pythia8_res_100TeV_100k/*': No such file or directory
-Sat Feb 28 08:13:48 JST 2015
-Sat Feb 28 18:18:26 JST 2015
+21 0 0 21
+0 21 0 21
+0 1 20 21
+0 1 20 21
+0 0 21 21
+finished!
+Mon Nov 2 01:09:11 JST 2015
+Mon Nov 2 01:10:15 JST 2015
+Mon Nov 2 01:15:52 JST 2015
+[INFO] PJM 0000 pjsub Job 26225147 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 158.48659: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225148 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 251.18507: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225149 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 398.09871: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225150 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 630.94582: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225151 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 999.98472: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225152 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 1584.85785: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225153 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 2511.83791: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225154 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 3980.96686: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225155 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 6309.42609: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225156 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 9999.79628: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225157 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 15848.49781: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225158 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 25118.25119: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225159 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 39809.46591: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225160 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 63093.93962: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225161 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 99997.45353: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225162 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 158484.17103: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225163 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 251181.23265: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225164 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 398092.63163: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225165 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 630936.18292: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225166 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225167 submitted.
+
+waiting while finishing jobs on cluster
+21 0 0 21
+21 0 0 21
+20 1 0 21
+20 1 0 21
+20 1 0 21
+19 1 1 21
+19 1 1 21
+16 4 1 21
+16 1 4 21
+16 1 4 21
+16 1 4 21
+10 1 10 21
+10 1 10 21
+2 1 18 21
+2 1 18 21
+2 1 18 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 0 21 21
+finished!
+Mon Nov 2 01:15:52 JST 2015
+Mon Nov 2 01:19:56 JST 2015
+Mon Nov 2 01:22:14 JST 2015
+[INFO] PJM 0000 pjsub Job 26225196 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 158.48659: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 158.48659: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225197 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 251.18507: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 251.18507: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225198 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 398.09871: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 398.09871: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225199 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 630.94582: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 630.94582: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225200 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 999.98472: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 999.98472: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225201 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 1584.85785: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 1584.85785: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225202 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 2511.83791: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 2511.83791: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225203 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 3980.96686: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 3980.96686: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225204 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 6309.42609: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 6309.42609: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225205 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 9999.79628: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 9999.79628: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225206 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 15848.49781: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 15848.49781: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225207 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 25118.25119: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 25118.25119: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225208 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 39809.46591: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 39809.46591: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225209 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 63093.93962: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 63093.93962: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225210 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 99997.45353: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 99997.45353: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225211 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 158484.17103: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 158484.17103: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225212 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 251181.23265: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 251181.23265: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225213 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 398092.63163: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 398092.63163: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225214 submitted.
+
+./run_dm_ann_parallel.sh: line 125: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 127: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 129: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 131: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 133: [: 630936.18292: integer expression expected
+./run_dm_ann_parallel.sh: line 135: [: 630936.18292: integer expression expected
+[INFO] PJM 0000 pjsub Job 26225215 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225216 submitted.
+
+waiting while finishing jobs on cluster
+21 0 0 21
+19 2 0 21
+19 1 1 21
+19 1 1 21
+15 5 1 21
+15 1 5 21
+15 1 5 21
+8 8 5 21
+8 1 12 21
+8 1 12 21
+8 1 12 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+0 1 20 21
+find: `/disk/th/work/takaesu/test7/par_*': No such file or directory
+find: `/disk/th/work/takaesu/test7/par_*': No such file or directory
+find: `/disk/th/work/takaesu/test7/par_*': No such file or directory
+find: `/disk/th/work/takaesu/test7/par_*': No such file or directory
+0 0 0 0
+mv: cannot stat `/disk/th/work/takaesu/test7/*': No such file or directory
+cat: par_1/data/run_1/mass.dat: No such file or directory
+cat: par_1/data/run_1/Evis_tot.dat: No such file or directory
+cat: par_1/data/run_1/Edist.dat: No such file or directory
+cat: par_1/data/run_1/np_sptrm.dat: No such file or directory
+cat: par_1/data/run_1/nini.dat: No such file or directory
+cat: par_1/data/run_1/Evis.dat: No such file or directory
+cat: par_1/data/run_1/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_1/allprocess_1.log': No such file or directory
+cat: par_2/data/run_2/mass.dat: No such file or directory
+cat: par_2/data/run_2/Evis_tot.dat: No such file or directory
+cat: par_2/data/run_2/Edist.dat: No such file or directory
+cat: par_2/data/run_2/np_sptrm.dat: No such file or directory
+cat: par_2/data/run_2/nini.dat: No such file or directory
+cat: par_2/data/run_2/Evis.dat: No such file or directory
+cat: par_2/data/run_2/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_2/allprocess_2.log': No such file or directory
+cat: par_3/data/run_3/mass.dat: No such file or directory
+cat: par_3/data/run_3/Evis_tot.dat: No such file or directory
+cat: par_3/data/run_3/Edist.dat: No such file or directory
+cat: par_3/data/run_3/np_sptrm.dat: No such file or directory
+cat: par_3/data/run_3/nini.dat: No such file or directory
+cat: par_3/data/run_3/Evis.dat: No such file or directory
+cat: par_3/data/run_3/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_3/allprocess_3.log': No such file or directory
+cat: par_4/data/run_4/mass.dat: No such file or directory
+cat: par_4/data/run_4/Evis_tot.dat: No such file or directory
+cat: par_4/data/run_4/Edist.dat: No such file or directory
+cat: par_4/data/run_4/np_sptrm.dat: No such file or directory
+cat: par_4/data/run_4/nini.dat: No such file or directory
+cat: par_4/data/run_4/Evis.dat: No such file or directory
+cat: par_4/data/run_4/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_4/allprocess_4.log': No such file or directory
+cat: par_5/data/run_5/mass.dat: No such file or directory
+cat: par_5/data/run_5/Evis_tot.dat: No such file or directory
+cat: par_5/data/run_5/Edist.dat: No such file or directory
+cat: par_5/data/run_5/np_sptrm.dat: No such file or directory
+cat: par_5/data/run_5/nini.dat: No such file or directory
+cat: par_5/data/run_5/Evis.dat: No such file or directory
+cat: par_5/data/run_5/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_5/allprocess_5.log': No such file or directory
+cat: par_6/data/run_6/mass.dat: No such file or directory
+cat: par_6/data/run_6/Evis_tot.dat: No such file or directory
+cat: par_6/data/run_6/Edist.dat: No such file or directory
+cat: par_6/data/run_6/np_sptrm.dat: No such file or directory
+cat: par_6/data/run_6/nini.dat: No such file or directory
+cat: par_6/data/run_6/Evis.dat: No such file or directory
+cat: par_6/data/run_6/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_6/allprocess_6.log': No such file or directory
+cat: par_7/data/run_7/mass.dat: No such file or directory
+cat: par_7/data/run_7/Evis_tot.dat: No such file or directory
+cat: par_7/data/run_7/Edist.dat: No such file or directory
+cat: par_7/data/run_7/np_sptrm.dat: No such file or directory
+cat: par_7/data/run_7/nini.dat: No such file or directory
+cat: par_7/data/run_7/Evis.dat: No such file or directory
+cat: par_7/data/run_7/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_7/allprocess_7.log': No such file or directory
+cat: par_8/data/run_8/mass.dat: No such file or directory
+cat: par_8/data/run_8/Evis_tot.dat: No such file or directory
+cat: par_8/data/run_8/Edist.dat: No such file or directory
+cat: par_8/data/run_8/np_sptrm.dat: No such file or directory
+cat: par_8/data/run_8/nini.dat: No such file or directory
+cat: par_8/data/run_8/Evis.dat: No such file or directory
+cat: par_8/data/run_8/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_8/allprocess_8.log': No such file or directory
+cat: par_9/data/run_9/mass.dat: No such file or directory
+cat: par_9/data/run_9/Evis_tot.dat: No such file or directory
+cat: par_9/data/run_9/Edist.dat: No such file or directory
+cat: par_9/data/run_9/np_sptrm.dat: No such file or directory
+cat: par_9/data/run_9/nini.dat: No such file or directory
+cat: par_9/data/run_9/Evis.dat: No such file or directory
+cat: par_9/data/run_9/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_9/allprocess_9.log': No such file or directory
+cat: par_10/data/run_10/mass.dat: No such file or directory
+cat: par_10/data/run_10/Evis_tot.dat: No such file or directory
+cat: par_10/data/run_10/Edist.dat: No such file or directory
+cat: par_10/data/run_10/np_sptrm.dat: No such file or directory
+cat: par_10/data/run_10/nini.dat: No such file or directory
+cat: par_10/data/run_10/Evis.dat: No such file or directory
+cat: par_10/data/run_10/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_10/allprocess_10.log': No such file or directory
+cat: par_11/data/run_11/mass.dat: No such file or directory
+cat: par_11/data/run_11/Evis_tot.dat: No such file or directory
+cat: par_11/data/run_11/Edist.dat: No such file or directory
+cat: par_11/data/run_11/np_sptrm.dat: No such file or directory
+cat: par_11/data/run_11/nini.dat: No such file or directory
+cat: par_11/data/run_11/Evis.dat: No such file or directory
+cat: par_11/data/run_11/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_11/allprocess_11.log': No such file or directory
+cat: par_12/data/run_12/mass.dat: No such file or directory
+cat: par_12/data/run_12/Evis_tot.dat: No such file or directory
+cat: par_12/data/run_12/Edist.dat: No such file or directory
+cat: par_12/data/run_12/np_sptrm.dat: No such file or directory
+cat: par_12/data/run_12/nini.dat: No such file or directory
+cat: par_12/data/run_12/Evis.dat: No such file or directory
+cat: par_12/data/run_12/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_12/allprocess_12.log': No such file or directory
+cat: par_13/data/run_13/mass.dat: No such file or directory
+cat: par_13/data/run_13/Evis_tot.dat: No such file or directory
+cat: par_13/data/run_13/Edist.dat: No such file or directory
+cat: par_13/data/run_13/np_sptrm.dat: No such file or directory
+cat: par_13/data/run_13/nini.dat: No such file or directory
+cat: par_13/data/run_13/Evis.dat: No such file or directory
+cat: par_13/data/run_13/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_13/allprocess_13.log': No such file or directory
+cat: par_14/data/run_14/mass.dat: No such file or directory
+cat: par_14/data/run_14/Evis_tot.dat: No such file or directory
+cat: par_14/data/run_14/Edist.dat: No such file or directory
+cat: par_14/data/run_14/np_sptrm.dat: No such file or directory
+cat: par_14/data/run_14/nini.dat: No such file or directory
+cat: par_14/data/run_14/Evis.dat: No such file or directory
+cat: par_14/data/run_14/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_14/allprocess_14.log': No such file or directory
+cat: par_15/data/run_15/mass.dat: No such file or directory
+cat: par_15/data/run_15/Evis_tot.dat: No such file or directory
+cat: par_15/data/run_15/Edist.dat: No such file or directory
+cat: par_15/data/run_15/np_sptrm.dat: No such file or directory
+cat: par_15/data/run_15/nini.dat: No such file or directory
+cat: par_15/data/run_15/Evis.dat: No such file or directory
+cat: par_15/data/run_15/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_15/allprocess_15.log': No such file or directory
+cat: par_16/data/run_16/mass.dat: No such file or directory
+cat: par_16/data/run_16/Evis_tot.dat: No such file or directory
+cat: par_16/data/run_16/Edist.dat: No such file or directory
+cat: par_16/data/run_16/np_sptrm.dat: No such file or directory
+cat: par_16/data/run_16/nini.dat: No such file or directory
+cat: par_16/data/run_16/Evis.dat: No such file or directory
+cat: par_16/data/run_16/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_16/allprocess_16.log': No such file or directory
+cat: par_17/data/run_17/mass.dat: No such file or directory
+cat: par_17/data/run_17/Evis_tot.dat: No such file or directory
+cat: par_17/data/run_17/Edist.dat: No such file or directory
+cat: par_17/data/run_17/np_sptrm.dat: No such file or directory
+cat: par_17/data/run_17/nini.dat: No such file or directory
+cat: par_17/data/run_17/Evis.dat: No such file or directory
+cat: par_17/data/run_17/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_17/allprocess_17.log': No such file or directory
+cat: par_18/data/run_18/mass.dat: No such file or directory
+cat: par_18/data/run_18/Evis_tot.dat: No such file or directory
+cat: par_18/data/run_18/Edist.dat: No such file or directory
+cat: par_18/data/run_18/np_sptrm.dat: No such file or directory
+cat: par_18/data/run_18/nini.dat: No such file or directory
+cat: par_18/data/run_18/Evis.dat: No such file or directory
+cat: par_18/data/run_18/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_18/allprocess_18.log': No such file or directory
+cat: par_19/data/run_19/mass.dat: No such file or directory
+cat: par_19/data/run_19/Evis_tot.dat: No such file or directory
+cat: par_19/data/run_19/Edist.dat: No such file or directory
+cat: par_19/data/run_19/np_sptrm.dat: No such file or directory
+cat: par_19/data/run_19/nini.dat: No such file or directory
+cat: par_19/data/run_19/Evis.dat: No such file or directory
+cat: par_19/data/run_19/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_19/allprocess_19.log': No such file or directory
+cat: par_20/data/run_20/mass.dat: No such file or directory
+cat: par_20/data/run_20/Evis_tot.dat: No such file or directory
+cat: par_20/data/run_20/Edist.dat: No such file or directory
+cat: par_20/data/run_20/np_sptrm.dat: No such file or directory
+cat: par_20/data/run_20/nini.dat: No such file or directory
+cat: par_20/data/run_20/Evis.dat: No such file or directory
+cat: par_20/data/run_20/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_20/allprocess_20.log': No such file or directory
+cat: par_21/data/run_21/mass.dat: No such file or directory
+cat: par_21/data/run_21/Evis_tot.dat: No such file or directory
+cat: par_21/data/run_21/Edist.dat: No such file or directory
+cat: par_21/data/run_21/np_sptrm.dat: No such file or directory
+cat: par_21/data/run_21/nini.dat: No such file or directory
+cat: par_21/data/run_21/Evis.dat: No such file or directory
+cat: par_21/data/run_21/np_sptrm_norm.dat: No such file or directory
+cp: cannot stat `par_21/allprocess_21.log': No such file or directory
+cp: cannot stat `par_1/run_dm_ann_general.sh': No such file or directory
+finished!
+Mon Nov 2 01:22:14 JST 2015
+Mon Nov 2 01:36:09 JST 2015
+Mon Nov 2 01:57:59 JST 2015
+[INFO] PJM 0000 pjsub Job 26225670 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225671 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225672 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225673 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225674 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225675 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225676 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225677 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225678 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225679 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225680 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225681 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225682 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225683 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225684 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225685 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225686 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225687 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225688 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225689 submitted.
+
+[INFO] PJM 0000 pjsub Job 26225690 submitted.
+
+waiting while finishing jobs on cluster
+21 0 0 21
+16 5 0 21
+16 5 0 21
+16 5 0 21
+16 5 0 21
+12 9 0 21
+12 9 0 21
+12 9 0 21
+10 11 0 21
+10 11 0 21
+10 11 0 21
+9 12 0 21
+9 12 0 21
+9 12 0 21
+5 15 1 21
+5 15 1 21
+5 15 1 21
+1 13 7 21
+0 12 9 21
+0 11 10 21
+0 11 10 21
+0 11 10 21
+0 6 15 21
+0 6 15 21
+0 6 15 21
+0 6 15 21
+0 2 19 21
+0 2 19 21
+0 2 19 21
+0 0 21 21
+finished!
+Mon Nov 2 01:57:59 JST 2015
+Mon Nov 2 02:03:14 JST 2015

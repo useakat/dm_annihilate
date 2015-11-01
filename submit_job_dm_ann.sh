@@ -28,13 +28,13 @@ echo "" >> $njob$i
 if [ $cluster == "icrr" ];then
     echo '#------ pjsub option --------#' >> $njob$i
     echo '#PJM -L "rscunit=common"' >> $njob$i
-    echo '#PJM -L "rscgrp=A"' >> $njob$i
+    echo '#PJM -L "rscgrp=B"' >> $njob$i
 #    echo '#PJM -L "rscunit=group"' >> $njob$i
 #    echo '#PJM -L "rscgrp=th"' >> $njob$i
     echo '#PJM -L "vnode=1"' >> $njob$i
     echo '#PJM -L "vnode-core=1"' >> $njob$i
 #    echo '#PJM -L "vnode-mem=3Gi"' >> $njob$i
-    echo '#PJM -L "elapse=00:15:00"' >> $njob$i # A:<3h B:<24h C:<1week th:no limit
+#    echo '#PJM -L "elapse=00:15:00"' >> $njob$i # A:<3h B:<24h C:<1week th:no limit
 fi
 echo '#------- Program execution -------#' >> $njob$i
 echo "date >allprocess.log" >> $njob$i

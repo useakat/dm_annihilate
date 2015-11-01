@@ -12,14 +12,13 @@ cluster=icrr  # name of computer cluster: kekcc/icrr
 que=l
 
 #Emax=1000000
-Emax=100000  # default value: 100000
+Emax=1000000  # default value: 1000000
 if [ $decay == "ww" ];then
-    min=100
+    min=100  # default 100 GeV
     max=$Emax
     imin=1
-    ndiv=20
-#    ndiv=15
-#    ndiv=1
+    ndiv=20  # default 5points/1order
+#    ndiv=3
     ext=ww
 elif [ $decay == "zz" ];then
     min=100
@@ -92,7 +91,7 @@ elif [ $decay == "check" ];then
 fi
 logflag=1
 #nevents=1000000
-nevents=100000
+#nevents=100000
 #nevents=1000
 
 imax=`expr $ndiv + 1`
@@ -122,6 +121,24 @@ while [ $i -le $imax ];do
     else
 	x=$max
     fi
+
+    ix=`echo $x |cut -d. -f1`
+    if [ $ix -le 10 ];then
+	nevents=100000
+    elif [ $ix -le 100 ];then
+	nevents=100000
+    elif [ $ix -le 1000 ];then
+	nevents=100000
+    elif [ $ix -le 10000 ];then
+	nevents=100000
+    elif [ $ix -le 100000 ];then
+	nevents=10000
+    elif [ $ix -le 1000000 ];then
+	nevents=1000
+    else 
+	nevents=100
+    fi
+
     ./submit_job_dm_ann.sh $cluster $que $i $job "./run_dm_ann_general.sh run_$i $x $nevents $decay" $submit_mode $work_dir
     i=`expr $i + 1`
 done
@@ -171,6 +188,8 @@ while [ $i -lt $n ];do
 #	cat par_$i/data/run_$i/Nch.dat >> $rsltdir/Nch_$ext.dat
 	cat par_$i/data/run_$i/np_sptrm_norm.dat >> $rsltdir/Ekin_z_$ext.dat
     fi
+    # copy log file
+    cp -rf par_$i/allprocess.log $rsltdir/allprocess_$i.log
 ###################################################
     i=`expr $i + 1`
 done
