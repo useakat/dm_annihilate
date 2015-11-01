@@ -1,0 +1,113 @@
+%% http://pypi.python.org/pypi/pyslha
+
+\documentclass[11pt,class=minimal,border=2pt]{article}
+\usepackage[margin=0cm,paperwidth=15.2cm,paperheight=9.9cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+
+%% Default preamble
+\usepackage[osf]{mathpazo}
+
+\begin{document}
+\thispagestyle{empty}
+
+\centering
+\begin{tikzpicture}[scale=0.6]
+  % y-scalefactor (GeV -> coords) = 2.200000e-03
+
+  %% Frame
+  \draw (-3.000000,0.000000) rectangle (19.000000,15.400000);
+  %% y-ticks
+  \draw (-3.000000,0.000000) node[left] {0};
+  \draw (-3.000000,1.760000) node[left] {800};
+  \draw (-2.700000,1.760000) -- (-3.000000,1.760000);
+  \draw (-3.000000,3.520000) node[left] {1600};
+  \draw (-2.700000,3.520000) -- (-3.000000,3.520000);
+  \draw (-3.000000,5.280000) node[left] {2400};
+  \draw (-2.700000,5.280000) -- (-3.000000,5.280000);
+  \draw (-3.000000,7.040000) node[left] {3200};
+  \draw (-2.700000,7.040000) -- (-3.000000,7.040000);
+  \draw (-3.000000,8.800000) node[left] {4000};
+  \draw (-2.700000,8.800000) -- (-3.000000,8.800000);
+  \draw (-3.000000,10.560000) node[left] {4800};
+  \draw (-2.700000,10.560000) -- (-3.000000,10.560000);
+  \draw (-3.000000,12.320000) node[left] {5600};
+  \draw (-2.700000,12.320000) -- (-3.000000,12.320000);
+  \draw (-3.000000,14.080000) node[left] {6400};
+  \draw (-2.700000,14.080000) -- (-3.000000,14.080000);
+  \draw (-5.200000,15.400000) node[left,rotate=90] {Mass / GeV};
+
+  %% Decay arrows
+  % decay_1000021_1000024, BR=10.5%
+  \draw[-stealth,line width=0.10pt,dashed,color=black!16.29087244] (15.700000,4.717272) -- (11.200000,0.176844);
+  % decay_1000023_1000024, BR=42.0%
+  \draw[-stealth,line width=0.42pt,dashed,color=black!35.2014418] (10.800000,0.208004) -- (11.200000,0.176844);
+  % decay_1000024_1000022, BR=100.0%
+  \draw[-stealth,line width=1.00pt,dashed,color=black!70.0] (11.200000,0.176844) -- (10.800000,0.176651);
+  % decay_1000025_37, BR=11.7%
+  \draw[-stealth,line width=0.12pt,dashed,color=black!17.00047636] (10.800000,13.823454) -- (1.200000,6.808095);
+  % decay_1000025_1000022, BR=10.1%
+  \draw[-stealth,line width=0.10pt,dashed,color=black!16.03715266] (10.800000,13.823454) -- (10.800000,0.176651);
+  % decay_1000025_1000024, BR=11.7%
+  \draw[-stealth,line width=0.12pt,dashed,color=black!17.00047636] (10.800000,13.823454) -- (11.200000,0.176844);
+  % decay_1000035_25, BR=11.7%
+  \draw[-stealth,line width=0.12pt,dashed,color=black!16.99644904] (10.800000,13.823978) -- (0.800000,0.328555);
+  % decay_1000035_37, BR=11.6%
+  \draw[-stealth,line width=0.12pt,dashed,color=black!16.98275374] (10.800000,13.823978) -- (1.200000,6.808095);
+  % decay_1000035_1000022, BR=11.7%
+  \draw[-stealth,line width=0.12pt,dashed,color=black!16.99644904] (10.800000,13.823978) -- (10.800000,0.176651);
+  % decay_1000035_1000024, BR=11.6%
+  \draw[-stealth,line width=0.12pt,dashed,color=black!16.98275374] (10.800000,13.823978) -- (11.200000,0.176844);
+  % decay_1000037_25, BR=19.8%
+  \draw[-stealth,line width=0.20pt,dashed,color=black!21.8538415] (11.200000,13.824354) -- (0.800000,0.328555);
+  % decay_1000037_35, BR=11.5%
+  \draw[-stealth,line width=0.11pt,dashed,color=black!16.8915328] (11.200000,13.824354) -- (0.800000,6.806045);
+  % decay_1000037_36, BR=11.5%
+  \draw[-stealth,line width=0.11pt,dashed,color=black!16.89144148] (11.200000,13.824354) -- (0.800000,6.805882);
+  % decay_1000037_37, BR=11.6%
+  \draw[-stealth,line width=0.12pt,dashed,color=black!16.9465564] (11.200000,13.824354) -- (1.200000,6.808095);
+  % decay_1000037_1000022, BR=11.6%
+  \draw[-stealth,line width=0.12pt,dashed,color=black!16.9465564] (11.200000,13.824354) -- (10.800000,0.176651);
+  % decay_1000037_1000024, BR=11.5%
+  \draw[-stealth,line width=0.11pt,dashed,color=black!16.89144148] (11.200000,13.824354) -- (11.200000,0.176844);
+
+  %% Particle lines
+  % pid25
+  \draw[color=blue,thick] (-0.200000,0.328555) -- (1.800000,0.328555);
+  % pid35
+  \draw[color=blue,thick] (-0.200000,6.806045) -- (1.800000,6.806045);
+  % pid36
+  \draw[color=blue,thick] (-0.200000,6.805882) -- (1.800000,6.805882);
+  % pid37
+  \draw[color=red,thick] (0.200000,6.808095) -- (2.200000,6.808095);
+  % pid1000021
+  \draw[color=black!50!blue!30!green,thick] (14.700000,4.717272) -- (16.700000,4.717272);
+  % pid1000022
+  \draw[color=blue,thick] (9.800000,0.176651) -- (11.800000,0.176651);
+  % pid1000023
+  \draw[color=blue,thick] (9.800000,0.208004) -- (11.800000,0.208004);
+  % pid1000024
+  \draw[color=red,thick] (10.200000,0.176844) -- (12.200000,0.176844);
+  % pid1000025
+  \draw[color=blue,thick] (9.800000,13.823454) -- (11.800000,13.823454);
+  % pid1000035
+  \draw[color=blue,thick] (9.800000,13.823978) -- (11.800000,13.823978);
+  % pid1000037
+  \draw[color=red,thick] (10.200000,13.824354) -- (12.200000,13.824354);
+
+  %% Particle labels
+  \draw (-0.400000,0.377028) node[left] {\small $h^0$};
+  \draw (-0.400000,6.491774) node[left] {\small $A^0$};
+  \draw (-0.400000,7.120153) node[left] {\small $H^0$};
+  \draw (2.400000,6.808095) node[right] {\small $H^\pm$};
+  \draw (14.500000,4.717272) node[left] {\small $\tilde{g}$};
+  \draw (9.600000,0.062838) node[left] {\small $\tilde{\chi}_1^0$};
+  \draw (9.600000,0.691218) node[left] {\small $\tilde{\chi}_2^0$};
+  \draw (12.400000,0.377028) node[right] {\small $\tilde{\chi}_1^\pm$};
+  \draw (9.600000,13.509526) node[left] {\small $\tilde{\chi}_3^0$};
+  \draw (9.600000,14.137906) node[left] {\small $\tilde{\chi}_4^0$};
+  \draw (12.400000,13.824354) node[right] {\small $\tilde{\chi}_2^\pm$};
+\end{tikzpicture}
+
+\end{document}

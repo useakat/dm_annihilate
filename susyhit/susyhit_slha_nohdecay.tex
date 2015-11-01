@@ -1,0 +1,57 @@
+%% http://pypi.python.org/pypi/pyslha
+
+\documentclass[11pt,class=minimal,border=2pt]{article}
+\usepackage[margin=0cm,paperwidth=15.2cm,paperheight=9.9cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+
+%% Default preamble
+\usepackage[osf]{mathpazo}
+
+\begin{document}
+\thispagestyle{empty}
+
+\centering
+\begin{tikzpicture}[scale=0.6]
+  % y-scalefactor (GeV -> coords) = 5.923077e-03
+
+  %% Frame
+  \draw (-3.000000,0.000000) rectangle (19.000000,15.400000);
+  %% y-ticks
+  \draw (-3.000000,0.000000) node[left] {0};
+  \draw (-3.000000,2.369231) node[left] {400};
+  \draw (-2.700000,2.369231) -- (-3.000000,2.369231);
+  \draw (-3.000000,4.738462) node[left] {800};
+  \draw (-2.700000,4.738462) -- (-3.000000,4.738462);
+  \draw (-3.000000,7.107692) node[left] {1200};
+  \draw (-2.700000,7.107692) -- (-3.000000,7.107692);
+  \draw (-3.000000,9.476923) node[left] {1600};
+  \draw (-2.700000,9.476923) -- (-3.000000,9.476923);
+  \draw (-3.000000,11.846154) node[left] {2000};
+  \draw (-2.700000,11.846154) -- (-3.000000,11.846154);
+  \draw (-3.000000,14.215385) node[left] {2400};
+  \draw (-2.700000,14.215385) -- (-3.000000,14.215385);
+  \draw (-5.200000,15.400000) node[left,rotate=90] {Mass / GeV};
+
+  %% Particle lines
+  % pid25
+  \draw[color=blue,thick] (-0.200000,0.738731) -- (1.800000,0.738731);
+  % pid1000021
+  \draw[color=black!50!blue!30!green,thick] (14.700000,13.482454) -- (16.700000,13.482454);
+  % pid1000022
+  \draw[color=blue,thick] (9.800000,1.347218) -- (11.800000,1.347218);
+  % pid1000023
+  \draw[color=blue,thick] (9.800000,2.240480) -- (11.800000,2.240480);
+  % pid1000024
+  \draw[color=red,thick] (10.200000,2.241512) -- (12.200000,2.241512);
+
+  %% Particle labels
+  \draw (-0.400000,0.738731) node[left] {\small $h^0$};
+  \draw (14.500000,13.482454) node[left] {\small $\tilde{g}$};
+  \draw (9.600000,1.347218) node[left] {\small $\tilde{\chi}_1^0$};
+  \draw (9.600000,2.240480) node[left] {\small $\tilde{\chi}_2^0$};
+  \draw (12.400000,2.241512) node[right] {\small $\tilde{\chi}_1^\pm$};
+\end{tikzpicture}
+
+\end{document}

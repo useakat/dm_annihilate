@@ -1,0 +1,202 @@
+ *****************************************************
+ *                   MadAnalysis                     *
+ *               a MadEvent program                  *
+ *    for making plots and do simple analysis for    *
+ *            LHE and LHCO event files               *
+ *        ---------------------------------          *
+ *        Version compliant with MG_ME_V4.0          *
+ *                                                   *
+ *       Authors: R. Frederix and F. Maltoni         *
+ *                                                   *
+ *         Last Update by R.F., 23-Feb-2006          *
+ *****************************************************
+  
+ input name of event file:
+ -------------------------
+Found Les Houches Event File 
+    output file: plots.top                                                                                                                                                                                               
+ Classes will be read from file: ./ma_card.dat
+ Found the following classes in input classes file:
+  class # 0 is   mET   12 -12  14 -14  16 -16 122
+  class # 1 is   jet    1  -1   2  -2   3  -3   4  -4  21
+  class # 2 is   b      5  -5
+ Now start parsing events a first time
+ created new class w+  for particle          24
+ created new class w-  for particle         -24
+ Setting up graphs
+          11  plots set up
+ Setting up acceptance cuts
+ Cuts set up
+ SEE plots.log FOR MORE INFO
+ Now parsing events to fill histograms
+ At event         1000
+ At event         2000
+ At event         3000
+ At event         4000
+ At event         5000
+ At event         6000
+ At event         7000
+ At event         8000
+ At event         9000
+ At event        10000
+ At event        11000
+ At event        12000
+ At event        13000
+ At event        14000
+ At event        15000
+ At event        16000
+ At event        17000
+ At event        18000
+ At event        19000
+ At event        20000
+ At event        21000
+ At event        22000
+ At event        23000
+ At event        24000
+ At event        25000
+ At event        26000
+ At event        27000
+ At event        28000
+ At event        29000
+ At event        30000
+ At event        31000
+ At event        32000
+ At event        33000
+ At event        34000
+ At event        35000
+ At event        36000
+ At event        37000
+ At event        38000
+ At event        39000
+ At event        40000
+ At event        41000
+ At event        42000
+ At event        43000
+ At event        44000
+ At event        45000
+ At event        46000
+ At event        47000
+ At event        48000
+ At event        49000
+ At event        50000
+ At event        51000
+ At event        52000
+ At event        53000
+ At event        54000
+ At event        55000
+ At event        56000
+ At event        57000
+ At event        58000
+ At event        59000
+ At event        60000
+ At event        61000
+ At event        62000
+ At event        63000
+ At event        64000
+ At event        65000
+ At event        66000
+ At event        67000
+ At event        68000
+ At event        69000
+ At event        70000
+ At event        71000
+ At event        72000
+ At event        73000
+ At event        74000
+ At event        75000
+ At event        76000
+ At event        77000
+ At event        78000
+ At event        79000
+ At event        80000
+ At event        81000
+ At event        82000
+ At event        83000
+ At event        84000
+ At event        85000
+ At event        86000
+ At event        87000
+ At event        88000
+ At event        89000
+ At event        90000
+ At event        91000
+ At event        92000
+ At event        93000
+ At event        94000
+ At event        95000
+ At event        96000
+ At event        97000
+ At event        98000
+ At event        99000
+ At event       100000
+  
+ ----------------------------------------------
+               events information              
+ ----------------------------------------------
+  
+   Events in file               :        100000
+   Integrated weight (pb)       :     3.7664999999914408     
+   Max wgt                      :     3.7664999999999999E-005
+   Average wgt                  :     3.7664999999914408E-005
+  
+   Passing the cuts (plotted)
+   --------------------------
+  
+   Events                       :        100000
+   Integrated weight (pb)       :     3.7664999999914408     
+   Max wgt                      :     3.7664999999999999E-005
+   Average wgt                  :     3.7664999999914408E-005
+plot_events found
+topdrawer found
+epstosmth found
+plot_card found
+cp: `../../../Cards/plot_card.dat' and `./ma_card.dat' are the same file
+end plot_events
+ Plot  1 Done.
+ Plot  2 Done.
+ Plot  3 Done.
+ Plot  4 Done.
+ Plot  5 Done.
+ Plot  6 Done.
+ Plot  7 Done.
+ Plot  8 Done.
+ Plot  9 Done.
+ Plot 10 Done.
+ Plot 11 Done.
+ Plot 12 Done.
+csplit: `/   NEW PLOT/': match not found on repetition 11
+ Plot  1 Done.
+ Plot  0 Done.
+ Plot  1 Done.
+ Plot  0 Done.
+ Plot  1 Done.
+ Plot  0 Done.
+ Plot  1 Done.
+ Plot  0 Done.
+ Plot  1 Done.
+ Plot  0 Done.
+ Plot  1 Done.
+ Plot  0 Done.
+ Plot  1 Done.
+ Plot  0 Done.
+ Plot  1 Done.
+ Plot  0 Done.
+ Plot  1 Done.
+ Plot  0 Done.
+ Plot  1 Done.
+ Plot  0 Done.
+ Plot  1 Done.
+ Plot  0 Done.
+ Plot  1 Done.
+==> Warning: BoundingBox not found!
+./plots_parton/ma_plot000.jpg
+./plots_parton/ma_plot001.jpg
+./plots_parton/ma_plot002.jpg
+./plots_parton/ma_plot003.jpg
+./plots_parton/ma_plot004.jpg
+./plots_parton/ma_plot005.jpg
+./plots_parton/ma_plot006.jpg
+./plots_parton/ma_plot007.jpg
+./plots_parton/ma_plot008.jpg
+./plots_parton/ma_plot009.jpg
+./plots_parton/ma_plot010.jpg
