@@ -38,49 +38,49 @@ elif [ $decay == "tautau" ];then
     min=1
     max=$Emax
     imin=3
-    ndiv=25
-#    ndiv=20
+#    ndiv=25
+    ndiv=30
     ext=tautau
 elif [ $decay == "uubar" ];then
     min=1
     max=$Emax
     imin=2
-#    ndiv=30
-    ndiv=25
+    ndiv=30
+#    ndiv=25
     ext=uubar
 elif [ $decay == "ddbar" ];then
     min=1
     max=$Emax
     imin=2
-#    ndiv=30
-    ndiv=25
+    ndiv=30
+#    ndiv=25
     ext=ddbar
 elif [ $decay == "ssbar" ];then
     min=1
     max=$Emax
     imin=2
-#    ndiv=30
-    ndiv=25
+    ndiv=30
+#    ndiv=25
     ext=ssbar
 elif [ $decay == "ccbar" ];then
     min=1
     max=$Emax
     imin=3
-#    ndiv=30
-    ndiv=25
+    ndiv=30
+#    ndiv=25
     ext=ccbar
 elif [ $decay == "bbbar" ];then
     min=1
     max=$Emax
     imin=5
-#    ndiv=30
-    ndiv=25
+    ndiv=30
+#    ndiv=25
     ext=bbbar
 elif [ $decay == "ttbar" ];then
     min=100
     max=$Emax
     imin=3
-    ndiv=15
+    ndiv=20
     ext=ttbar
 elif [ $decay == "check" ];then
     min=5
@@ -124,19 +124,19 @@ while [ $i -le $imax ];do
 
     ix=`echo $x |cut -d. -f1`
     if [ $ix -le 10 ];then
-	nevents=100000
+	nevents=1000000
     elif [ $ix -le 100 ];then
-	nevents=100000
+	nevents=1000000
     elif [ $ix -le 1000 ];then
-	nevents=100000
+	nevents=1000000
     elif [ $ix -le 10000 ];then
-	nevents=100000
+	nevents=1000000
     elif [ $ix -le 100000 ];then
-	nevents=10000
+	nevents=100000
     elif [ $ix -le 1000000 ];then
-	nevents=1000
+	nevents=10000
     else 
-	nevents=100
+	nevents=1000
     fi
 
     ./submit_job_dm_ann.sh $cluster $que $i $job "./run_dm_ann_general.sh run_$i $x $nevents $decay" $submit_mode $work_dir
