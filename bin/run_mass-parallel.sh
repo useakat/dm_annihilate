@@ -1,4 +1,4 @@
-B1;2c#!/bin/bash
+#!/bin/bash
 if [[ "$1" == "-h" ]]; then
     echo ""
     echo "Usage: run_mass_parallel.sh [job_system] [que] [it] [jobname] [command]"
@@ -28,6 +28,12 @@ if [ $cluster == "icrr" ];then
 elif [ $cluster == "kekcc" ];then
     work_dir=./
 fi
+
+masses=("0" "30" "100" "1000" "10000" "100000" "1000000")
+#nevents=("0" "100000" "100000" "100000" "100000" "10000" "1000")
+nevents=("0" "10000" "10000" "10000" "10000" "1000" "100")
+imin=1
+imax=6
 ################# Main Code #####################################
 bin_dir=$selfdir
 if [ $run_mode -eq 1 ];then
@@ -38,11 +44,6 @@ else
     "ERROR: Invalid run_mode is entered! run_mode = 1 or 2."
 fi
 
-masses=("0" "30" "100" "1000" "10000" "100000" "1000000")
-#nevents=("0" "100000" "100000" "100000" "100000" "10000" "1000")
-nevents=("0" "10000" "10000" "10000" "10000" "1000" "100")
-imin=1
-imax=6
 i=1
 while [ $i -le $imax ];do 
     $bin_dir/submit_jobs.sh $cluster $que $i $job "$bin_dir/run_general.sh run_$i $run_mode ${masses[$i]} ${nevents[$i]} $channel" $submit_mode $work_dir

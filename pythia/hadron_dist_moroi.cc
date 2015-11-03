@@ -581,9 +581,9 @@ int main(int argc, char *argv[]) {
   pythia.stat();
 
   std::ofstream ofsEvis("Evis.dat");
-  ofsEvis << setiosflags(ios::scientific) << ECM << " " << Ekin/nevents << " "  << Ekin/(2*mDM)/nevents << endl;
+  ofsEvis << setiosflags(ios::scientific) << ECM << " " << Ekin/nevents << " "  << Ekin/ECM/nevents << endl;
 
-  cout << setiosflags(ios::scientific) << ECM << " " << Ekin/nevents << " "  << Ekin/(2*mDM)/nevents << " " << Ekin_other/nevents << " " << nevents << endl;
+  cout << setiosflags(ios::scientific) << ECM << " " << Ekin/nevents << " "  << Ekin/ECM/nevents << " " << Ekin_other/nevents << " " << nevents << endl;
 
   std::ofstream ofsGamE("Evis_tot.dat");
   ofsGamE << Ekin/nevents << endl;
