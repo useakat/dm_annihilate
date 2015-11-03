@@ -8,3 +8,4 @@ nohup.out
 *.o
 *.out
 *_finish.o*
+result/*
