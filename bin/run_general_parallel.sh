@@ -8,7 +8,7 @@ imkdir=$4
 mail=$5  # 0: no mail  1: mail when all jobs are finished
 ###### MODIFY HERE: running parameters #################
 output=hadron_dist_$channel.dat
-submit_mode=0 # 0:serial submittion 1:parallel submission
+submit_mode=1 # 0:serial submittion 1:parallel submission
 #cluster=kekcc # name of computer cluster: kekcc/icrr
 cluster=icrr  # name of computer cluster: kekcc/icrr
 que=l
@@ -19,8 +19,8 @@ if [ $channel == "ww" ];then
     min=100  # default 100 GeV
     max=$Emax
     imin=1
-#    ndiv=20  # default 5-points/1-order
-    ndiv=1
+    ndiv=20  # default 5-points/1-order
+#    ndiv=1
     ext=ww
 elif [ $channel == "zz" ];then
     min=100

@@ -40,7 +40,6 @@ echo "date >allprocess.log" >> $njob$i
 echo "rm -rf wait.${njob}$i" >> $njob$i
 echo "touch run.${njob}$i" >> $njob$i
 echo "cp -rf $selfdir/../pythia ." >> $njob$i
-#echo "cp -rf $selfdir ." >> $njob$i
 echo "mkdir data" >> $njob$i
 echo "$command >>allprocess.log 2>&1" >> $njob$i
 echo "rm -rf run.${njob}$i" >> $njob$i
