@@ -1,13 +1,16 @@
 #!/bin/bash
+selfdir=$(cd $(dirname $0);pwd)
+
 run=$1
-decay=$2
+channel=$2
 imkdir=$3
 mail=$4
 ###### MODIFY HERE: running parameters #################
-output=hadron_dist_$decay.dat
-jobname=dm_ann_check
+output=hadron_dist_$channel.dat
+jobname=dm_check
 submit_mode=0 # 0:serial submittion 1:parallel submission
-job_system=bsub
+#cluster=kekcc
+cluster=icrr  # name of computer cluster: kekcc/icrr
 que=l
 
 min=10
@@ -20,9 +23,19 @@ nevents=1000
 logflag=1
 
 imax=`expr $ndiv + 1`
+
+# working space for jobs on a remote server
+if [ $cluster == "icrr" ];then
+    work_dir=/disk/th/work/takaesu/$run
+    mkdir $work_dir
+elif [ $cluster == "kekcc" ];then
+    work_dir=./
+fi
 ######################################################
 start=`date`
 echo $start
+
+bin_dir=$selfdir
 
 i=$imin
 while [ $i -le $imax ];do
@@ -38,17 +51,21 @@ while [ $i -le $imax ];do
     else
 	x=$max
     fi
-    ./submit_job_dm_ann.sh $job_system $que $i $job "./run_dm_ann_general.sh run_$i $x $nevents $decay > allprocess.log" $submit_mode
+    $bin_dir/submit_jobs.sh $cluster $que $i $job "./run_general.sh run_$i $x $nevents $channel" $submit_mode $work_dir
     i=`expr $i + 1`
 done
 n=$i
 
 if [ $submit_mode -eq 1 ];then
-    ./monitor
+    $bin_dir/monitor
+fi
+if [ $cluster == "icrr" ];then
+    mv $work_dir/* .
+    rm -rf $work_dir
 fi
 
-rsltdir=rslt_$run
-makedir.sh $rsltdir $imkdir
+rsltdir=$bin_dir/../results/rslt_$run
+$bin_dir/makedir.sh $rsltdir $imkdir
 rm -rf $rsltdir/$output
 
 x=$min
@@ -76,6 +93,4 @@ echo `date`
 
 rm -rf par_*
 
-if [ $mail -eq 1 ];then
-    bsub -q e -J annDM -u takaesu@post.kek.jp nulljob.sh >/dev/null 2>&1
-fi
+$bin_dir/mail_notify $mail $cluster $jobname

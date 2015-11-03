@@ -32,18 +32,22 @@ int main(int argc, char *argv[]) {
   Event& event      = pythia.event;
   ParticleData& pdt = pythia.particleData;
   char *ends;
-  double mDM = strtod(argv[1], &ends);
-  int inevents = atoi(argv[2]);
-  int idecay = atoi(argv[3]);
+  int irun_mode = atoi(argv[1]);
+  double mDM = strtod(argv[2], &ends);
+  int inevents = atoi(argv[3]);
+  int idecay = atoi(argv[4]);
 
-  double ECM;
-  if (idecay == 0){
-    ECM = mDM;
+  std::ofstream ofsmass("mass.dat");
+  ofsmass << mDM << endl;
+
+  double ECM = 0;
+  if (irun_mode == 1){
+    ECM = mDM; // DM decay process
+  } else if (irun_mode == 2){
+    ECM = 2*mDM; // DM annihilation process
   } else {
-    ECM = 2*mDM;
-    std::ofstream ofsmass("mass.dat");
-    ofsmass << mDM << endl;
-  }
+    cout << "ERROR: run_mode is invalid value. 1 or 2 is allowed." << endl;
+  } 
 
   pythia.readString("Random:setSeed = on");
   pythia.readString("Random:seed = 0"); //pick new random seed for each run, based on clock
