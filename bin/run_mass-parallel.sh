@@ -1,4 +1,4 @@
-#!/bin/bash
+B1;2c#!/bin/bash
 if [[ "$1" == "-h" ]]; then
     echo ""
     echo "Usage: run_mass_parallel.sh [job_system] [que] [it] [jobname] [command]"
@@ -38,14 +38,14 @@ else
     "ERROR: Invalid run_mode is entered! run_mode = 1 or 2."
 fi
 
-
-mass=("0" "30" "100" "1000" "10000" "100000" "1000000")
-nevents=("0" "100000" "100000" "100000" "100000" "10000" "1000")
+masses=("0" "30" "100" "1000" "10000" "100000" "1000000")
+#nevents=("0" "100000" "100000" "100000" "100000" "10000" "1000")
+nevents=("0" "10000" "10000" "10000" "10000" "1000" "100")
 imin=1
 imax=6
 i=1
 while [ $i -le $imax ];do 
-    $bin_dir/submit_jobs.sh $cluster $que $i $job "$bin_dir/run_general.sh run_$i $run_mode ${mass[$i]} ${nevents[$i]} $channel" $submit_mode $work_dir
+    $bin_dir/submit_jobs.sh $cluster $que $i $job "$bin_dir/run_general.sh run_$i $run_mode ${masses[$i]} ${nevents[$i]} $channel" $submit_mode $work_dir
     i=`expr $i + 1`
 done
 
@@ -67,30 +67,21 @@ echo "%%%%%" >> $rsltdir/$output
 i=$imin
 while [ $i -le $imax ];do
 ### MODIFY HERE for preparing result files ###############
-    mass=`cat par_$i/data/run_$i/mass.dat`
+    mass=${masses[$i]}
+    ext=${channel}_${mass}
     Evis_tot=`cat par_$i/data/run_$i/Evis_tot.dat`
     echo $mass 0 0 $Evis_tot >> $rsltdir/$output
     cat par_$i/data/run_$i/Edist.dat >> $rsltdir/$output
     echo "%%%%%" >> $rsltdir/$output
-    if [ $i -eq $imin ];then
 # Prepare outputfiles and write the first line
-	cat par_$i/data/run_$i/np_sptrm.dat > $rsltdir/np_sptrm_$ext.dat
-	cat par_$i/data/run_$i/nini.dat > $rsltdir/nini_$ext.dat
-	cat par_$i/data/run_$i/Evis.dat > $rsltdir/Evis_$ext.dat
-	cat par_$i/data/run_$i/np_sptrm_norm.dat > $rsltdir/Ekin_z_$ext.dat
-    else
-# Add data to the outputfiles
-	cat par_$i/data/run_$i/np_sptrm.dat >> $rsltdir/np_sptrm_$ext.dat
-	cat par_$i/data/run_$i/nini.dat >> $rsltdir/nini_$ext.dat
-	cat par_$i/data/run_$i/Evis.dat >> $rsltdir/Evis_$ext.dat
-	cat par_$i/data/run_$i/np_sptrm_norm.dat >> $rsltdir/Ekin_z_$ext.dat
-    fi
-    # copy log file
+    cat par_$i/data/run_$i/np_sptrm.dat > $rsltdir/np_sptrm_$ext.dat
+    cat par_$i/data/run_$i/nini.dat > $rsltdir/nini_$ext.dat
+    cat par_$i/data/run_$i/Evis.dat > $rsltdir/Evis_$ext.dat
+    cat par_$i/data/run_$i/np_sptrm_norm.dat > $rsltdir/Ekin_z_$ext.dat
     cp -rf par_$i/allprocess.log $rsltdir/allprocess_$i.log
 ###################################################
     i=`expr $i + 1`
 done
-
 ### MODIFY HERE for saving files relatee to this run
 cp -rf $bin_dir/run_general.sh $rsltdir/.
 cp -rf $bin_dir/submit_jobs.sh $rsltdir/.
