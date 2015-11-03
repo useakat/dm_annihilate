@@ -36,7 +36,8 @@ if [ $cluster == "icrr" ];then
 #    echo '#PJM -L "elapse=00:15:00"' >> $njob$i # A:<3h B:<24h C:<1week th:no limit
 fi
 echo '#------- Program execution -------#' >> $njob$i
-echo "date >allprocess.log" >> $njob$i
+echo 'start=`date`' >> $njob$i
+echo 'echo $start >allprocess.log' >> $njob$i
 echo "rm -rf wait.${njob}$i" >> $njob$i
 echo "touch run.${njob}$i" >> $njob$i
 echo "cp -rf $selfdir/../pythia ." >> $njob$i
@@ -45,6 +46,8 @@ echo "$command >>allprocess.log 2>&1" >> $njob$i
 echo "rm -rf run.${njob}$i" >> $njob$i
 echo "touch done.${njob}$i" >> $njob$i
 echo "rm -rf pythia" >> $njob$i
+echo 'echo $start >>allprocess.log' >> $njob$i
+echo 'date >>allprocess.log' >> $njob$i
 
 chmod +x $njob$i
 touch wait.$njob$i
