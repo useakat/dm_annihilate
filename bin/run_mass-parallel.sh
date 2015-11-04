@@ -1,7 +1,13 @@
 #!/bin/bash
 if [[ "$1" == "-h" ]]; then
     echo ""
-    echo "Usage: run_mass_parallel.sh [job_system] [que] [it] [jobname] [command]"
+    echo "Usage: run_mass_parallel.sh [run name] [run mode] [channel] [imkdir] [mail]"
+    echo ""
+    echo "run name: run name"
+    echo "run mode: 1:DM decay 2:DM annihilation"
+    echo "run mode: ww/zz/tautau/uubar/ddbar/ccbar/ssbar/bbbar/ttbar"
+    echo "  imkdir: 0:do not delete an existing dir with the same name when making a dir  1:delete the existing dir"
+    echo "    mail: 0:no mail notification  1:mail notification when all jobs are finished"
     echo ""
     exit
 fi
@@ -9,11 +15,11 @@ selfdir=$(cd $(dirname $0);pwd)
 start=`date`
 echo $start
 
-run=$1       # run name
-run_mode=$2  # 1: DM decay  2: DM annihilation
-channel=$3   # final state mode
-imkdir=$4    # 0:do not delete an existing dir with the same name when making a dir  1:delete the existing dir
-mail=$5      # 0: no mail notification  1: mail notification when all jobs are finished
+run=$1       
+run_mode=$2  
+channel=$3   
+imkdir=$4    
+mail=$5      
 ###### MODIFY HERE: running parameters #################
 output=hadron_dist_$channel.dat
 submit_mode=1
@@ -30,8 +36,9 @@ elif [ $cluster == "kekcc" ];then
 fi
 
 masses=("0" "30" "100" "1000" "10000" "100000" "1000000")
-#nevents=("0" "100000" "100000" "100000" "100000" "10000" "1000")
-nevents=("0" "10000" "10000" "10000" "10000" "1000" "100")
+nevents=("0" "10000000" "10000000" "10000000" "3000000" "600000" "100000")
+#nevents=("0" "40000" "30000" "10000" "3000" "500" "100") # optimized ratio for bbbar
+#nevents=("0" "1000000" "500000" "140000" "30000" "6000" "1000") # optimized ratio for uubar
 imin=1
 imax=6
 ################# Main Code #####################################
