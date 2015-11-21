@@ -51,6 +51,12 @@ elif [ $channel == "bbbar" ];then
 elif [ $channel == "ttbar" ];then
     id1=6
     id2=-6
+elif [ $channel == "ee" ];then
+    id1=11
+    id2=-11
+elif [ $channel == "gamgam" ];then
+    id1=22
+    id2=$id1
 elif [ $channel == "check" ];then
     id1=0
     id2=$id1

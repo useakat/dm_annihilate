@@ -12,11 +12,13 @@ set format y '10^{%L}'
 #set xrange [1:7]
 #set yrange [1E-5:2E8]
 ####################### Definitions ######################################
+mode = 'ee'
 mass = 1000000 # DM mass in GeV
-#file1 = 'rslt_10k/np_sptrm_ww.dat'
-#file1 = 'rslt_100k_2/np_sptrm_ww.dat'
-file1 = 'results/rslt_uubar_1k/np_sptrm_uubar_'.mass.'.dat'
-#file1 = 'results/rslt_bbbar_opt_100k/np_sptrm_bbbar_'.mass.'.dat'
+#file1 = 'results/rslt_bbbar_check_1k/np_sptrm_bbbar_'.mass.'.dat'
+#file1 = 'results/rslt_'.mode.'_10k/np_sptrm_'.mode.'_'.mass.'.dat'
+#file1 = 'results/rslt_'.mode.'_100k/np_sptrm_'.mode.'_'.mass.'.dat'
+#file1 = 'results/rslt_'.mode.'_10m/np_sptrm_'.mode.'_'.mass.'.dat'
+file1 = 'results/rslt_'.mode.'_100m/np_sptrm_'.mode.'_'.mass.'.dat'
 c1 = 'red'
 c2 = 'blue'
 c3 = '#006400' # dark green
@@ -25,7 +27,8 @@ c5 = '#ff33ff'
 c6 = '#cc6600' # dark orange
 ####################### Parameters #######################################
 ndiv = 1
-Mmin = 1
+Mmin = 1  # for qq~ modes
+#Mmin = 1  # for qq~ modes
 Mmax = 1000000
 ##########################################################################
 set terminal postscript eps enhanced 'Times-Roman' color 20
@@ -37,7 +40,7 @@ set output 'plots/Edist_'.mass.'.eps'
 start = 1 +802*(ii-1) 
 end = start +800
 set xrange [1E-2:1000000]
-set yrange [1E-5:1]
+set yrange [1E-8:1]
 #set yrange [0:10]
 #set title '{/=28 Edist}'
 set label 'mDM = '.mass.' GeV' at graph 0.05, graph 0.92

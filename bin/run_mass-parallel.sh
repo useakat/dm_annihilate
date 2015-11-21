@@ -35,10 +35,14 @@ elif [ $cluster == "kekcc" ];then
     work_dir=./
 fi
 
-masses=("0" "30" "100" "1000" "10000" "100000" "1000000")
-nevents=("0" "10000000" "10000000" "10000000" "3000000" "600000" "100000")
+#masses=("0" "10" "20" "30" "10000" "100000" "1000000")  # Dark matter masses
+masses=("0" "30" "100" "1000" "10000" "100000" "1000000")  # Dark matter masses
+#masses=("0" "60" "200" "2000" "20000" "200000" "2000000")  # For check with annihilation case
+nevents=("0" "1750000000" "1630000000" "1460000000" "1270000000" "1140000000" "1000000000")  # Event numbers to be generated
+#nevents=("0" "10000000" "10000000" "10000000" "10000000" "10000000" "10000000")  # generated events in tautau
+#nevents=("0" "10000000" "10000000" "10000000" "10000000" "10000000" "10000000")  # generated events in ww
 #nevents=("0" "40000" "30000" "10000" "3000" "500" "100") # optimized ratio for bbbar
-#nevents=("0" "1000000" "500000" "140000" "30000" "6000" "1000") # optimized ratio for uubar
+#nevents=("0" "1000000" "500000" "140000" "30000" "6000" "1000") # optimized ratio for qqbar
 imin=1
 imax=6
 ################# Main Code #####################################

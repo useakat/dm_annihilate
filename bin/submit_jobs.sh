@@ -27,7 +27,9 @@ echo "" >> $njob$i
 if [ $cluster == "icrr" ];then
     echo '#------ pjsub option --------#' >> $njob$i
     echo '#PJM -L "rscunit=common"' >> $njob$i
-    echo '#PJM -L "rscgrp=B"' >> $njob$i
+#    echo '#PJM -L "rscgrp=A"' >> $njob$i # < 3h
+#    echo '#PJM -L "rscgrp=B"' >> $njob$i # < 24h
+    echo '#PJM -L "rscgrp=C"' >> $njob$i # < 1week
 #    echo '#PJM -L "rscunit=group"' >> $njob$i
 #    echo '#PJM -L "rscgrp=th"' >> $njob$i
     echo '#PJM -L "vnode=1"' >> $njob$i

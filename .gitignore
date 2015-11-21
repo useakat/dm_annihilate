@@ -9,3 +9,5 @@ nohup.out
 *.out
 *_finish.o*
 result/*
+plots/*
+.DS_Store
