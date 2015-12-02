@@ -70,11 +70,15 @@ sed -e "s/999999:addChannel .*/999999:addChannel = 1 1.00 101 $id1 $id2/" \
 mv tmp.cmnd generic_resonance.cmnd
 
     rm -rf *.dat 
-    make hadron_dist_moroi
 #    gfortran hadron_dist_pythia6.f pythia-6.4.28.f -o hadron_dist_pythia6
+#    ./hadron_dist_pythia6 $mass $nevents $id1 
 #    ./hadron_dist $mass $nevents
+    make hadron_dist_moroi
     ./hadron_dist_moroi $run_mode $mass $nevents $id1
-#    ./hadron_dist_pythia6 $mass $nevents $id1    
+#    make hadron_dist
+#    ./hadron_dist $run_mode $mass $nevents $id1
+#    make Evis
+#    ./Evis $run_mode $mass $nevents $id1   
 cd ..
 
 $selfdir/makedir.sh data 0

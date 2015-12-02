@@ -24,12 +24,13 @@ $(PREFIX_LIB)/libpythia8.a :
 	$(error Error: PYTHIA must be built, please run "make"\
                 in the top PYTHIA directory)
 
+Evis : Evis.cc $(PREFIX_LIB)/libpythia8.a
+	$(CXX) $^ -o $@ $(CXX_COMMON)
+
 hadron_dist : hadron_dist.cc $(PREFIX_LIB)/libpythia8.a
-#hadron_dist : hadron_dist_fixed_output.cc $(PREFIX_LIB)/libpythia8.a
 	$(CXX) $^ -o $@ $(CXX_COMMON)
 
 hadron_dist_moroi : hadron_dist_moroi.cc $(PREFIX_LIB)/libpythia8.a
-#hadron_dist : hadron_dist_fixed_output.cc $(PREFIX_LIB)/libpythia8.a
 	$(CXX) $^ -o $@ $(CXX_COMMON)
 
 hadron_dist_lhe : hadron_dist_lhe.cc $(PREFIX_LIB)/libpythia8.a

@@ -13,12 +13,13 @@ set format y '10^{%L}'
 #set yrange [1E-5:2E8]
 ####################### Definitions ######################################
 mode = 'ee'
-mass = 1000000 # DM mass in GeV
+mass = 30 # DM mass in GeV
 #file1 = 'results/rslt_bbbar_check_1k/np_sptrm_bbbar_'.mass.'.dat'
 #file1 = 'results/rslt_'.mode.'_10k/np_sptrm_'.mode.'_'.mass.'.dat'
 #file1 = 'results/rslt_'.mode.'_100k/np_sptrm_'.mode.'_'.mass.'.dat'
-#file1 = 'results/rslt_'.mode.'_10m/np_sptrm_'.mode.'_'.mass.'.dat'
-file1 = 'results/rslt_'.mode.'_100m/np_sptrm_'.mode.'_'.mass.'.dat'
+file1 = 'results/rslt_'.mode.'_10m/np_sptrm_'.mode.'_'.mass.'.dat'
+#file1 = 'results/rslt_'.mode.'_100m/np_sptrm_'.mode.'_'.mass.'.dat'
+#file1 = 'results/rslt_'.mode.'_test3/np_sptrm_'.mode.'_'.mass.'.dat'
 c1 = 'red'
 c2 = 'blue'
 c3 = '#006400' # dark green

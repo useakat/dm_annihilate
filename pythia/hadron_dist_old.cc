@@ -32,165 +32,75 @@ int main(int argc, char *argv[]) {
   Event& event      = pythia.event;
   ParticleData& pdt = pythia.particleData;
   char *ends;
-  int irun_mode = atoi(argv[1]);
-  double mDM = strtod(argv[2], &ends);
-  int inevents = atoi(argv[3]);
-  int idecay = atoi(argv[4]);
+  double mDM = strtod(argv[1], &ends);
+  int inevents = atoi(argv[2]);
+
 
   std::ofstream ofsmass("mass.dat");
-  ofsmass << mDM << endl;
-
-  double ECM = 0;
-  if (irun_mode == 1){
-    ECM = mDM; // DM decay process
-  } else if (irun_mode == 2){
-    ECM = 2*mDM; // DM annihilation process
-  } else {
-    cout << "ERROR: run_mode is invalid value. 1 or 2 is allowed." << endl;
-  } 
-
+  ofsmass << "mass " << argv[1] << " " << mDM << endl;
+  // Initialize Les Houches Event File run. List initialization information.
+  //pythia.readString("ProcessLevel:all = off");
+  //pythia.readString("PartonLevel:all = on");
+  //  pythia.readString("HadronLevel:Decay = off");
   pythia.readString("Random:setSeed = on");
   pythia.readString("Random:seed = 0"); //pick new random seed for each run, based on clock
-  pythia.readString("Next:numberShowEvent = 10"); // print event record n times
-  pythia.readString("Next:numberCount = 0"); // Print a line telling how many events have been generated so far, once every numberCount events. If set zero then no lines are ever printed. 
-  //  pythia.readString("Tune:ee = 2");
 
-  //pythia.readString("ProcessLevel:all = off");
-  //pythia.readString("ProcessLevel:resonanceDecays = off");
-  //pythia.readString("PartonLevel:all = off");
-  //  pythia.readString("PartonLevel:MPI = off");
-  //  pythia.readString("PartonLevel:FSRinResonances = off");
-  //  pythia.readString("PartonLevel:ISR = off");
-  //pythia.readString("PartonLevel:FSR = off");
-  //pythia.readString("PartonLevel:FSRinProcess = off");
-  //  pythia.readString("PartonLevel:Remnants = off");
-  //  pythia.readString("HadronLevel:Decay = off");
-  //  pythia.readString("PDFinProcess:nQuarkIn = 1");
-  pythia.readString("PhaseSpace:useBreitWigners = off");
-  pythia.readString("PhaseSpace:mHatMin = 2.");
-
+  pythia.readString("Tune:ee = 2");
 /////////////// LHE input mode ////////////////
-//  pythia.readString("Beams:frameType = 4");
-  // pythia.readString("Beams:LHEF = unweighted_events_mDM10000.lhe");
-  //pythia.readString("SLHA:useDecayTable = false");
+  //  pythia.readString("Beams:frameType = 4");
+  //  pythia.readString("Beams:LHEF = unweighted_events_mod.lhe");
+  //  pythia.readString("SLHA:useDecayTable = true");
 
-  //pythia.readString("Beams:frameType = 1");
-
-  pythia.readString("Beams:frameType = 2");
   pythia.readString("PDF:lepton = off"); 
-  pythia.readString("Beams:idA = 11");
-  pythia.readString("Beams:idB = -11");
-  pythia.settings.parm("Beams:eA", ECM/2.);
-  pythia.settings.parm("Beams:eB", ECM/2.);
-
-  //  pythia.settings.parm("Beams:eCM", ECM);
-  //  pythia.readString("11:m0 = 5000.");
-  //pythia.readString("-11:m0 = 5000.");
-
+  pythia.readString("Beams:idA =  11");
+  pythia.readString("Beams:idB =  -11");
+  pythia.settings.parm("Beams:eCM", 2*mDM);
 /////////////// Generic resonance mode ////////////////
-  if (idecay == 0) {
-    // test mode with Z resonance
-    pythia.readString("WeakSingleBoson:ffbar2ffbar(s:gmZ) = on"); 
-    pythia.readString("WeakZ0:gmZmode = 2");
-    pythia.readString("23:onMode = off");
-    pythia.readString("23:onIfAny = 1 2 3 4 5");
-  } else {   
-    // generic resonance decay mode
-    SigmaProcess* sigma1GenRes = new Sigma1GenRes();
-    pythia.setSigmaPtr(sigma1GenRes);
-    pythia.readFile("generic_resonance.cmnd");
-  }
+  // A class to generate the fictitious resonance initial state.
+  //  SigmaProcess* sigma1GenRes = new Sigma1GenRes();
+  // Hand pointer to Pythia.
+  //pythia.setSigmaPtr( sigma1GenRes);
+  // Read in the rest of the settings and data from a separate file.  
+  //  pythia.readFile("generic_resonance.cmnd");
 
-/////////////// Pythia internal process mode ////////////////
-  // if (idecay == 24) {
-  //   pythia.readString("WeakDoubleBoson:ffbar2WW = on");
-  // } else if (idecay == 23) {
-  //   pythia.readString("WeakDoubleBoson:ffbar2gmZgmZ = on");
-  //   pythia.readString("WeakZ0:gmZmode = 2");
-  // } else {
-  //   pythia.readString("WeakSingleBoson:ffbar2ffbar(s:gmZ) = on"); 
-  //   pythia.readString("WeakZ0:gmZmode = 2");
-  //   pythia.readString("23:onMode = off");
-  //   if (idecay == 15) {
-  //     pythia.readString("23:onIfAny = 15");
-  //   } else if (idecay == 1) {
-  //     pythia.readString("23:onIfAny = 1");
-  //   } else if (idecay == 2) {
-  //     pythia.readString("23:onIfAny = 2");
-  //   } else if (idecay == 3) {
-  //     pythia.readString("23:onIfAny = 3");
-  //   } else if (idecay == 4) {
-  //     pythia.readString("23:onIfAny = 4");
-  //   } else if (idecay == 5) {
-  //     pythia.readString("23:onIfAny = 5");
-  //   } else if (idecay == 0) {
-  //     pythia.readString("23:onIfAny = 1 2 3 4 5");
-  //   }   
-  // } 
+  //  pythia.readString("WeakSingleBoson:ffbar2ffbar(s:gmZ) = on"); 
+    //  pythia.readString("23:onMode = off");
+    //pythia.readString("23:onIfAny = 1 2 3 4 5");
+  pythia.readString("WeakDoubleBoson:ffbar2WW = on");
 
-  if (idecay == 0) {
-    pdt.mayDecay(13,false);     // muon
-    pdt.mayDecay(-13,false);
-    pdt.mayDecay(15,true);     // tau
-    pdt.mayDecay(-15,true);
-    pdt.mayDecay(130,false);    // KL
-    pdt.mayDecay(310,true);    // KS
-    pdt.mayDecay(111,true);    // pi0
-    pdt.mayDecay(211,false);   // pi+
-    pdt.mayDecay(-211,false);  // pi-
-    pdt.mayDecay(311,false);    // K0
-    pdt.mayDecay(-311,false);   // K0_bar
-    pdt.mayDecay(321,false);    // K+
-    pdt.mayDecay(-321,false);   // K-
-    pdt.mayDecay(2112,false);  // n
-    pdt.mayDecay(-2112,false); // n_bar
-    pdt.mayDecay(3122,true);   // Lambda
-  } else {
-    //// Life time < 10^-10 s ////////////
-    pdt.mayDecay(15,true);     // tau
-    pdt.mayDecay(-15,true);
-    pdt.mayDecay(310,true);    // KS
-    pdt.mayDecay(111,true);    // pi0
-    pdt.mayDecay(3122,true);   // Lambda
-    //// Life time > 10^-10 s ////////////
-    pdt.mayDecay(13,false);     // muon
-    pdt.mayDecay(-13,false);
-    pdt.mayDecay(211,false);   // pi+
-    pdt.mayDecay(-211,false);  // pi-
-    pdt.mayDecay(130,false);    // KL
-    pdt.mayDecay(311,false);    // K0
-    pdt.mayDecay(-311,false);   // K0_bar
-    pdt.mayDecay(321,false);    // K+
-    pdt.mayDecay(-321,false);   // K-
-    pdt.mayDecay(311,false);    // K0
-    pdt.mayDecay(-311,false);   // K0_bar
-    pdt.mayDecay(2112,false);  // n
-    pdt.mayDecay(-2112,false); // n_bar
-  }
+//// Life time < 10^-10 s ////////////
+  pdt.mayDecay(15,true);     // tau
+  pdt.mayDecay(-15,true);
+  pdt.mayDecay(310,true);    // KS
+  pdt.mayDecay(111,true);    // pi0
+  pdt.mayDecay(311,true);    // K0
+  pdt.mayDecay(-311,true);   // K0_bar
+  pdt.mayDecay(3122,true);   // Lambda
+//// Life time > 10^-10 s ////////////
+  pdt.mayDecay(13,false);     // muon
+  pdt.mayDecay(-13,false);
+  pdt.mayDecay(211,false);   // pi+
+  pdt.mayDecay(-211,false);  // pi-
+  pdt.mayDecay(130,false);    // KL
+  pdt.mayDecay(321,false);    // K+
+  pdt.mayDecay(-321,false);   // K-
+  pdt.mayDecay(2112,false);  // n
+  pdt.mayDecay(-2112,false); // n_bar
+
   pythia.init();
 
   // Allow for possibility of a few faulty events.
   // Extract settings to be used in the main program.
-  //  int nAbort  = pythia.mode("Main:timesAllowErrors");
-  int nAbort = 10;
+  int nAbort  = pythia.mode("Main:timesAllowErrors");
   int iAbort = 0;
 
   //  double nevents = 90000.;
   //  int inevents = pythia.mode("Main:numberOfEvents");;
   double nevents = 0;
 
-  int nbins;
-  double xmin;
-  double xmax;
-  if (idecay == 0) {
-    xmin = 0.01;
-    xmax = 100.;
-    nbins = 72;
-  } else {
-    xmin = 0.01;
-    xmax = 1000000.;
-    nbins = 800;
-  }
+  double xmin = 0.01;
+  double xmax = 1000000.;
+  int nbins = 800;
   double *x = new double[nbins];
   for (int i = 0; i < nbins+1; ++i) {
     //    x[i] = xmin +(xmax -xmin)/nbins*i;
@@ -218,7 +128,6 @@ int main(int argc, char *argv[]) {
   int *nnKp = new int[nbins];
   int *nnKm = new int[nbins];
   int *nnKL = new int[nbins];
-  int *nnK0 = new int[nbins];
   for (int i = 0; i < nbins+1; ++i) {
     nnGam[i] = 0;
     nnEle[i] = 0;
@@ -234,7 +143,6 @@ int main(int argc, char *argv[]) {
     nnKp[i] = 0;
     nnKm[i] = 0;
     nnKL[i] = 0;
-    nnK0[i] = 0;
   }
   int totGam = 0;
   int totEle = 0;
@@ -250,7 +158,6 @@ int main(int argc, char *argv[]) {
   int totKp = 0;
   int totKm = 0;
   int totKL = 0;
-  int totK0 = 0;
   int totOther = 0;
 
   // Begin event loop; generate until none left in input file.
@@ -280,7 +187,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnGam[ii] = nnGam[ii] +1;
+		nnGam[ii+1] = nnGam[ii+1] +1;
 		break;
 	      }
 	    }
@@ -292,7 +199,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnEle[ii] = nnEle[ii] +1;
+		nnEle[ii+1] = nnEle[ii+1] +1;
 		break;
 	      }
 	    }
@@ -304,7 +211,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnNeue[ii] = nnNeue[ii] +1;
+		nnNeue[ii+1] = nnNeue[ii+1] +1;
 		break;
 	      }
 	    }
@@ -316,7 +223,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnNeumu[ii] = nnNeumu[ii] +1;
+		nnNeumu[ii+1] = nnNeumu[ii+1] +1;
 		break;
 	      }
 	    }
@@ -328,7 +235,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnNeutau[ii] = nnNeutau[ii] +1;
+		nnNeutau[ii+1] = nnNeutau[ii+1] +1;
 		break;
 	      }
 	    }
@@ -340,7 +247,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnP[ii] = nnP[ii] +1;
+		nnP[ii+1] = nnP[ii+1] +1;
 		break;
 	      }
 	    }
@@ -352,7 +259,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnaP[ii] = nnaP[ii] +1;
+		nnaP[ii+1] = nnaP[ii+1] +1;
 		break;
 	      }
 	    }
@@ -364,9 +271,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnN[ii] = nnN[ii] +1;
-		//		cout << "neutron is generated!!!" << "" << nnN[ii] << endl;
-		//		pythia.event.list();
+		nnN[ii+1] = nnN[ii+1] +1;
 		break;
 	      }
 	    }
@@ -378,7 +283,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnaN[ii] = nnaN[ii] +1;
+		nnaN[ii+1] = nnaN[ii+1] +1;
 		break;
 	      }
 	    }
@@ -390,7 +295,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnpip[ii] = nnpip[ii] +1;
+		nnpip[ii+1] = nnpip[ii+1] +1;
 		break;
 	      }
 	    }
@@ -402,7 +307,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnpim[ii] = nnpim[ii] +1;
+		nnpim[ii+1] = nnpim[ii+1] +1;
 		break;
 	      }
 	    }
@@ -414,7 +319,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnKp[ii] = nnKp[ii] +1;
+		nnKp[ii+1] = nnKp[ii+1] +1;
 		break;
 	      }
 	    }
@@ -426,7 +331,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnKm[ii] = nnKm[ii] +1;
+		nnKm[ii+1] = nnKm[ii+1] +1;
 		break;
 	      }
 	    }
@@ -438,31 +343,7 @@ int main(int argc, char *argv[]) {
 	  for (int ii = 0; ii < nbins; ++ii) {
 	    if (x[ii] < Ekin) {
 	      if (Ekin < x[ii+1]) {
-		nnKL[ii] = nnKL[ii] +1;
-		break;
-	      }
-	    }
-	  }
-	}
-	else if (event[i].id() == 311) {
-	  Ekin = event[i].e() -mkL;
-	  totK0 = totK0 +1;
-	  for (int ii = 0; ii < nbins; ++ii) {
-	    if (x[ii] < Ekin) {
-	      if (Ekin < x[ii+1]) {
-		nnK0[ii] = nnK0[ii] +1;
-		break;
-	      }
-	    }
-	  }
-	}
-	else if (event[i].id() == -311) {
-	  Ekin = event[i].e() -mkL;
-	  totK0 = totK0 +1;
-	  for (int ii = 0; ii < nbins; ++ii) {
-	    if (x[ii] < Ekin) {
-	      if (Ekin < x[ii+1]) {
-		nnK0[ii] = nnK0[ii] +1;
+		nnKL[ii+1] = nnKL[ii+1] +1;
 		break;
 	      }
 	    }
@@ -470,66 +351,53 @@ int main(int argc, char *argv[]) {
 	}
 	else {
 	  totOther = totOther +1;
+	  //	  cout << event[i].id();
 	}
       }
     }
     nevents = nevents +1;
   // End of event loop.
   }
+
   // Give statistics. Print histogram.
   pythia.stat();
   
+  //int Total = GamE.getEntries();
+  //  std::ofstream ofsGamE("dist_takaesu_nodecay.dat");
   std::ofstream ofsnp("np_sptrm.dat");
+  //  ofsGamE << mDM << " " << totpi/nevents << " " << totN/nevents << " " << totP/nevents << endl;
+  //  ofsGamE << totpi/nevents << " " << totN/nevents << " " << totP/nevents << endl;
   for (int i = 0; i < nbins+1; ++i) {
-    ofsnp << setiosflags(ios::scientific) << ECM << " " << x[i] << " " << nnN[i]/nevents << " " << nnP[i]/nevents << " " 
+    ofsnp << setiosflags(ios::scientific) << 2*mDM << " " << x[i] << " " << nnN[i]/nevents << " " << nnP[i]/nevents << " " 
 	    << nnpip[i]/nevents << " " << nnpim[i]/nevents << " " << nnKp[i]/nevents << " "
-	  << nnKm[i]/nevents << " " << (nnKL[i]+nnK0[i]/2.)/nevents << " " << nnaN[i]/nevents << " " 
+            << nnKm[i]/nevents << " " << nnKL[i]/nevents << " " << nnaN[i]/nevents << " " 
             << nnaP[i]/nevents << endl;
   }
 
-  std::ofstream ofsnpnorm("np_sptrm_norm.dat");
-  for (int i = 0; i < nbins+1; ++i) {
-    double dx = x[i+1] -x[i];
-    ofsnpnorm << setiosflags(ios::scientific) << ECM << " " << x[i] << " " << nnN[i]/nevents/dx << " " << nnP[i]/nevents/dx << " " 
-	    << nnpip[i]/nevents/dx << " " << nnpim[i]/nevents/dx << " " << nnKp[i]/nevents/dx << " "
-	  << nnKm[i]/nevents/dx << " " << (nnKL[i]+nnK0[i]/2.)/nevents/dx << " " << nnaN[i]/nevents/dx << " " 
-            << nnaP[i]/nevents/dx << endl;
-  }
-
-  std::ofstream ofsEdist("Edist.dat");
-  ofsEdist << setiosflags(ios::scientific) << (totpip+totpim)/nevents << " " << (totN+totaN)/nevents << " " << (totP+totaP)/nevents << endl;
-  for (int i = 0; i < nbins+1; ++i) {
-    ofsEdist << setiosflags(ios::scientific) << x[i] << " " << (nnpip[i]+nnpim[i])/nevents << " " << (nnN[i]+nnaN[i])/nevents << " " << (nnP[i]+nnaP[i])/nevents << endl;
-  }
-
   std::ofstream ofsnini("nini.dat");
-  ofsnini << setiosflags(ios::scientific) << ECM << " " << totN/nevents << " " << totP/nevents << " " << totpip/nevents << " " 
-	  << totpim/nevents << " " << totKp/nevents << " " << totKm/nevents << " " << (totKL+totK0/2.)/nevents << " " 
+  ofsnini << setiosflags(ios::scientific) << 2*mDM << " " << totN/nevents << " " << totP/nevents << " " << totpip/nevents << " " 
+	  << totpim/nevents << " " << totKp/nevents << " " << totKm/nevents << " " << totKL/nevents << " " 
 	  << totaN/nevents << " " << totaP/nevents << endl;
 
   cout << setiosflags(ios::scientific) << totGam/nevents << " " << totEle/nevents << " " << totN/nevents << " " << totP/nevents << " " 
        << totpip/nevents << " " << totpim/nevents << " " << totKp/nevents << " " << totKm/nevents << " " 
-       << (totKL+totK0/2.)/nevents << " " << totaN/nevents << " " << totaP/nevents << " " << totOther/nevents << endl;
+       << totKL/nevents << " " << totaN/nevents << " " << totaP/nevents << " " << totOther/nevents << endl;
 
 
 ////////////////           ////////////////////// 
 //////////////// Evis data ////////////////////// 
-  if (idecay != 0) {
-    //// Life time > 10^-10 s ////////////
-    pdt.mayDecay(13,true);     // muon
-    pdt.mayDecay(-13,true);
-    pdt.mayDecay(211,true);   // pi+
-    pdt.mayDecay(-211,true);  // pi-
-    pdt.mayDecay(130,true);    // KL
-    pdt.mayDecay(311,true);    // K0
-    pdt.mayDecay(-311,true);   // K0_bar
-    pdt.mayDecay(321,true);    // K+
-    pdt.mayDecay(-321,true);   // K-
-    pdt.mayDecay(311,true);    // K0
-    pdt.mayDecay(-311,true);   // K0_bar
-    pdt.mayDecay(2112,false);  // n
-    pdt.mayDecay(-2112,false); // n_bar
-  }
+
+//// Life time > 10^-10 s ////////////
+  pdt.mayDecay(13,true);     // muon
+  pdt.mayDecay(-13,true);
+  pdt.mayDecay(211,true);   // pi+
+  pdt.mayDecay(-211,true);  // pi-
+  pdt.mayDecay(130,true);    // KL
+  pdt.mayDecay(321,true);    // K+
+  pdt.mayDecay(-321,true);   // K-
+  pdt.mayDecay(2112,false);  // n
+  pdt.mayDecay(-2112,false); // n_bar
+
   pythia.init();
 
   nevents = 0;
@@ -560,15 +428,18 @@ int main(int argc, char *argv[]) {
 	}
 	else if (abs(event[i].id()) == 11) {
 	  Ekin = Ekin +event[i].e() -me;
+	  //Ekin = Ekin +event[i].e();
 	}
 	else if (abs(event[i].id()) == 22) {
 	  Ekin = Ekin +event[i].e();
 	}
 	else if (abs(event[i].id()) == 2112) {
 	  Ekin = Ekin +event[i].e() -mn;
+	  //Ekin = Ekin +event[i].e();
 	}
 	else if (abs(event[i].id()) == 2212) {
 	  Ekin = Ekin +event[i].e() -mp;
+	  //Ekin = Ekin +event[i].e();
 	}
 	else {
 	  Ekin_other = Ekin_other +event[i].e();
@@ -578,16 +449,14 @@ int main(int argc, char *argv[]) {
     nevents = nevents +1;
   // End of event loop.
   }
+
   // Give statistics. Print histogram.
   pythia.stat();
 
   std::ofstream ofsEvis("Evis.dat");
-  ofsEvis << setiosflags(ios::scientific) << ECM << " " << Ekin/nevents << " "  << Ekin/ECM/nevents << endl;
+  ofsEvis << setiosflags(ios::scientific) << 2*mDM << " " << Ekin/nevents << " "  << Ekin/(2*mDM)/nevents << endl;
 
-  cout << setiosflags(ios::scientific) << ECM << " " << Ekin/nevents << " "  << Ekin/ECM/nevents << " " << Ekin_other/nevents << " " << nevents << endl;
-
-  std::ofstream ofsGamE("Evis_tot.dat");
-  ofsGamE << Ekin/nevents << endl;
+  cout << setiosflags(ios::scientific) << 2*mDM << " " << Ekin/nevents << " "  << Ekin/(2*mDM)/nevents << " " << Ekin_other/nevents << " " << nevents << endl;
 
   return 0;
 }
