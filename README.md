@@ -4,9 +4,8 @@
 
 <Using SUSYHIT>
   cd susyhit
-  modify susyhit.in and SLHA.in files
-  run.sh (SPheno-SDECAY-HDECAY)
-  ./run.sh (SOFTSUSY-SDECAY-HDECAY)
+  modify susyhit.in files
+  ./run.sh
 
 <Using SPheno>
   cd SUSYspc
@@ -40,14 +39,21 @@ doesn't work correctly (width should be larger at least 10^-12 GeV)
 It is highly recommended to check allprocess.log in par_n folder and 
 ensure that there is not many abortion or erros in Pythia run. 
 
+
 2. Modify relevant files
    * run_grv_decay_parallel.sh
       chi0mass: change to the LSP mass
       nevents (L35 & L38)
+
    * run_grv_decay.sh
       set param_card_XXX.dat appropreately (~L21)
 
+   * run_mass-parallel.sh
+      modify parameters part
+   
 3. Run
-   ./run.sh
+   ./bin/run_mass-parallel.sh
+   * Do not generate more than one billion events in general DM mode, otherwise pythia8 couldn't terminate event generation...
 
 3. Notes
+
